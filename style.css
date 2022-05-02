@@ -161,10 +161,10 @@ h3 {
 
 .sign-up {
     border-color: white;
-    border: 5px;
+    border: 1px solid white;
     border-radius: 8px;
     background: #3882F6;
-    padding: 8px 32px;
+    padding: 8px 24px;
     font-size: 18px;
     color: white; 
 }
