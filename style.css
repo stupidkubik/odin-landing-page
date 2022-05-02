@@ -63,7 +63,7 @@ body {
     margin-bottom: 12px;
   }
 
-  button {
+  .sign {
     border: none;
     border-radius: 8px;
     background: #3882F6;
@@ -113,7 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10vh 0;
+    margin-top: 10vh;
   }
 
   .quote-text {
@@ -134,3 +134,35 @@ body {
     margin-top: 2vh;
     margin-bottom: 10vh;
   }
+
+  .cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    gap: 5vh;
+    margin: 10vh 20vh;
+    padding: 5vh 10vh;
+    border-radius: 8px;
+  }
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 0;
+}
+
+.sign-up {
+    border-color: white;
+    border: 5px;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 32px;
+    font-size: 18px;
+    color: white; 
+}
