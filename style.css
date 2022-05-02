@@ -71,3 +71,39 @@ body {
     font-size: 18px;
     color: white; 
   }
+
+  h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+  .main-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    margin: 2vh;
+  }
+
+  .main-text {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+  }
+
+  p {
+    width: 250px;
+    gap: 2vh;
+    margin: 0 25px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+  }
