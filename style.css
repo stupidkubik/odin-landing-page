@@ -140,7 +140,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 5vh;
-    margin: 10vh 20vh;
+    margin: 15vh 20vh;
     padding: 5vh 10vh;
     border-radius: 8px;
   }
@@ -165,4 +165,13 @@ h3 {
     padding: 8px 32px;
     font-size: 18px;
     color: white; 
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 5vh 0;
 }
