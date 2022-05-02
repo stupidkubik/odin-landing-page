@@ -6,4 +6,24 @@ body {
     flex-direction: column;
   }
 
+  .header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 0px 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+  }
   
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 16px;
+    padding: 0;
+  }
