@@ -27,3 +27,47 @@ body {
     margin: 16px;
     padding: 0;
   }
+
+  .hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    align-items: center;
+    color: #F9FAF8;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10vh 0;
+    height: 40vh;
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .low-text {
+    max-width: 500px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    margin-bottom: 12px;
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 8px 32px;
+    font-size: 18px;
+    color: white; 
+  }
